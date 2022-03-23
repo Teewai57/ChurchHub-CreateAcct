@@ -1,0 +1,83 @@
+main{
+    width: 60%;
+    justify-content: center !important;
+    align-items: center !important;
+    align-self: center !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.form-control{
+    height: 30px;
+}
+.start{
+    font-size: 23px;
+    color: #872642;
+}
+.startp{
+    word-spacing: 3px;
+    font-size: 15px;
+    color: #872642;
+    /* font-weight: 00; */
+}
+.texts{
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+.form-control{
+    background-color: #fcfcfc;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid #872642;
+    background-color: #eee4e7;
+}
+label{
+    font-size: 14px;
+    color: #872642;
+}
+.form-control-file{
+    font-size: 15px;
+    color: #872642 !important;
+    /* margin-left: 20px; */
+    /* width: 200px; */
+}
+
+.file3 .photo3{
+    margin-left: 100px !important;
+}
+.button{
+    width: 96%;
+    color: white;
+    background-color: #872642;
+}
+.button:hover{
+    color: rgb(221, 219, 219);
+    background-color: #872642;
+    
+}
+.button:focus{
+    box-shadow: 0 5px 20px rgba(59, 43, 91, 0.7);
+
+}
+.start
+    
+
+@media (max-width:425px) {
+    .start{
+        font-size: 15px;
+    }
+    .startp{
+        font-size: 9px;
+        margin-left: 18px;
+    }
+    label{
+        font-size: 12px;
+    }
+    .form-control{
+        height: 20px;
+    }
+    .button{
+        font-size: 13px;
+    }
+}
